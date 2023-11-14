@@ -1,22 +1,28 @@
-const document = document.html
 
-const divAlg1 = document.createElement('div')
-divAlg1.className = alghoritm1
+console.log("we are alive")
 
-const h1 = document.createElement("h1")
-h1.textContent = "ALghoritm 1"
-h1.className = alghoritm1
-divAlg1.appendChild(h1)
+const body = document.querySelector('#website');
 
-const btn1 = document.createElement('button')
-btn1.onclick() = alg1()
-btn1.className = alghoritm1
+const divAlg1 = document.createElement('div');
+divAlg1.id = 'alghoritm1';
+
+const h1 = document.createElement('h1');
+h1.textContent = "Alghoritm 1";
+h1.id = 'alghoritm';
+divAlg1.appendChild(h1);
+
+const btn1 = document.createElement('button');
+btn1.onclick = alg1();
+btn1.id = 'alghoritm';
+btn1.innerText = 'click me!'
 divAlg1.appendChild(btn1)
 
-document.appendChild(divAlg1)
+body.appendChild(divAlg1);
 
 
-
+function alg1(){
+    console.log("pressed btn")
+}
 
 // const btn1 = document.createElement('button')
 // btn1.onclick() = alg1()

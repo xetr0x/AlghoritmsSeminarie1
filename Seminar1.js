@@ -56,6 +56,8 @@
      // Example of a graf on canvas. 
      // Converting input data to graf in kalkyl. Watch video. See if you can do it in illustrator. 
 
+var win = window.open() // make so it starts a website. 
+
 
 function main(){
     log("sup bitchessss")

@@ -1,0 +1,23 @@
+
+#website {
+    width: 70%;
+    margin:auto;
+    text-align: center;
+}
+#alghoritm1{
+    background: rgba(255, 0, 0, 0.281);
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+}
+
+#alghoritm1 h1{
+
+    text-align: center;
+}
+#alghoritm1 button{
+    size-adjust: 1em;
+    border-style: dotted;
+    border-width: 0.3em;
+    margin: 0.2em;
+    padding:0.25em;
+}
