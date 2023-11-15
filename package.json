@@ -9,7 +9,7 @@
   "seminar-module": {
     "version": "1.0.0",
     "type": "module",
-    "main": "Seminar1.js",
+    "main": "./public/alghortims.js",
     "description": "collect num and all the alghortims",
     "author": "Kevin Wilusz"
   },

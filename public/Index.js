@@ -1,5 +1,6 @@
+'use strict'
+import { alg1 } from './Algoritms.js';
 console.log("we are alive")
-
 
 const body = document.querySelector('#website');
 
@@ -17,12 +18,10 @@ btn1.id = 'alghoritm';
 btn1.innerText = 'click me!';
 divAlg1.appendChild(btn1);
 
-body.appendChild(divAlg1);
+body.appendChild(divAlg1); // response and request for sending what alghoritm to do and how much time it did!
 
 
-function alg1(){
-    
-}
+
 
 // const btn1 = document.createElement('button')
 // btn1.onclick() = alg1()

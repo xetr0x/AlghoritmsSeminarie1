@@ -10,9 +10,10 @@ app.use(express.static('public'));                      //säger att om den kan 
 
 app.use('/', router);                                   //säger att appen ska använda sig av router när den är på / sidan
 
-const RandNum = fetcher;
+ const RandNum = fetcher;
 
 console.log(RandNum);
 
+module.exports =  {RandNum};
 app.listen(port)                                        //säger till appen att den ska köra nu programen på port
 console.log('its alive on: http://localhost:' + port)                                //berättar till användaren via consolen att appen går på full varv. 
