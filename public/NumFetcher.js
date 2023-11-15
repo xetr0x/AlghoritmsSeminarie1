@@ -1,15 +1,14 @@
 "use strict"
-import fs from 'fs';
-import readline from 'readline';
-
+const fs = require('fs');
+const readline = require('readline');
 console.log("module alive!");
 
-export function collectNum(){
+function collectNum(){
    
     const OrgArray = [];
 
 
-    const fileName = 'C:/alghoritms/AlghoritmsSeminarie1/randomNumbers.txt';
+    const fileName = './public/randomNumbers.txt';
     const fileStream = fs.createReadStream(fileName);
 
     const rl = readline.createInterface({
@@ -26,10 +25,11 @@ export function collectNum(){
     console.log('Lines:', OrgArray);
 
   });
+  return OrgArray;
 }
 
-
-
+collectNum();
+//-----------------------------------------------------NOTES-----------------------------------------------
 //Alghoritms: quicksort both recursive and iterative, 
     //median-of-three pivot, 
     //random pivot, pivot = array[0], 

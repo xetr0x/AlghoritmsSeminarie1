@@ -2,7 +2,7 @@
   "name": "seminar1",
   "version": "1.0.0",
   "description": "The algoritm seminar",
-  "main": "server,js",
+  "main": "app.js",
   "scripts": {
     "test": "hola"
   },

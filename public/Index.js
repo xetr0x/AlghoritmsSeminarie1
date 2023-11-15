@@ -1,33 +1,28 @@
 console.log("we are alive")
 
-import * as alg from './Seminar1.js';
 
-alg.collectNum();
+const body = document.querySelector('#website');
 
+const divAlg1 = document.createElement('div');
+divAlg1.id = 'alghoritm1';
 
+const h1 = document.createElement('h1');
+h1.textContent = "Alghoritm 1";
+h1.id = 'alghoritm';
+divAlg1.appendChild(h1);
 
-// const body = document.querySelector('#website');
+const btn1 = document.createElement('button');
+btn1.onclick = alg1;
+btn1.id = 'alghoritm';
+btn1.innerText = 'click me!';
+divAlg1.appendChild(btn1);
 
-// const divAlg1 = document.createElement('div');
-// divAlg1.id = 'alghoritm1';
-
-// const h1 = document.createElement('h1');
-// h1.textContent = "Alghoritm 1";
-// h1.id = 'alghoritm';
-// divAlg1.appendChild(h1);
-
-// const btn1 = document.createElement('button');
-// btn1.onclick = alg1;
-// btn1.id = 'alghoritm';
-// btn1.innerText = 'click me!';
-// divAlg1.appendChild(btn1);
-
-// body.appendChild(divAlg1);
+body.appendChild(divAlg1);
 
 
-// function alg1(){
+function alg1(){
     
-// }
+}
 
 // const btn1 = document.createElement('button')
 // btn1.onclick() = alg1()
